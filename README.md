@@ -54,3 +54,9 @@ if output[0] > output[1] {
 ```
 
 Their score is determined by how well they perform (how long they survive)
+
+At the end of each generation, the best performing birds are to mate.
+
+Using the `crossoverOdds` and `mutationRate` arguments to `ai.New()` it is determined what % of the new population should be created using ONLY mutation or crossover AND mutation.
+
+After a new population has been created, the process gets repeated.
