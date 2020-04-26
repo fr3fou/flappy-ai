@@ -4,6 +4,14 @@
 
 A genetic algorithm with a neural network ([fr3fou/gone](https://github.com/fr3fou/gone)) built on top of [fr3fou/flappy-go](https://github.com/fr3fou/flappy-go) which plays flappy bird.
 
+Here's a [video](https://twitter.com/fr3fou/status/1254417434343333888) on how it plays.
+
+## Credits
+
+This project was greatly inspired by Daniel Shiffman and his series on Neuroevolion - [Neuroevolution - The Nature of Code](https://www.youtube.com/watch?v=lu5ul7z4icQ&list=PLRqwX-V7Uu6Yd3975YwxrR0x40XGJ_KGO)
+
+## How it works
+
 The core game is reused and built on top of using composition
 
 ```go

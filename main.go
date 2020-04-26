@@ -11,7 +11,7 @@ import (
 
 func main() {
 	rl.InitWindow(flappy.Width, flappy.Height, "Flappy AI!")
-	g := ai.New(500, 0.1, 0.1)
+	g := ai.New(750, 0.1, 0.1)
 
 	rl.SetTargetFPS(60)
 	sliderValue := float32(60)
@@ -31,7 +31,7 @@ func main() {
 		}
 
 		raygui.Label(rl.NewRectangle(15, 50, 200, 20), "FPS")
-		sliderValue = raygui.Slider(rl.NewRectangle(15, 70, 200, 20), sliderValue, 60, 240)
+		sliderValue = raygui.Slider(rl.NewRectangle(15, 70, 200, 20), sliderValue, 60, 500)
 		raygui.Label(rl.NewRectangle(15+200+5, 70, 20, 20), fmt.Sprintf("%.0f", sliderValue))
 		if prevSliderValue != sliderValue {
 			rl.SetTargetFPS(int32(sliderValue))
