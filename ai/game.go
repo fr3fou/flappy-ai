@@ -2,6 +2,7 @@ package ai
 
 import (
 	"log"
+	"strconv"
 
 	"github.com/fr3fou/flappy-go/flappy"
 	"github.com/fr3fou/gone/gone"
@@ -130,7 +131,6 @@ func (g *Game) Update() {
 }
 
 func (g *Game) Draw() {
-	rl.BeginDrawing()
 	rl.ClearBackground(rl.SkyBlue)
 
 	for _, bird := range g.Birds {
@@ -143,6 +143,8 @@ func (g *Game) Draw() {
 		pipe.Draw()
 	}
 
+	generations := "Generation: " + strconv.Itoa(g.Generation)
+	rl.DrawText(generations, 15, 15, 35, rl.White)
+
 	g.Ground.Draw()
-	rl.EndDrawing()
 }
