@@ -10,6 +10,12 @@ Here's a [video](https://twitter.com/fr3fou/status/1254417434343333888) on how i
 
 This project was greatly inspired by Daniel Shiffman and his series on Neuroevolion - [Neuroevolution - The Nature of Code](https://www.youtube.com/watch?v=lu5ul7z4icQ&list=PLRqwX-V7Uu6Yd3975YwxrR0x40XGJ_KGO)
 
+## References
+
+- <https://stackoverflow.com/questions/14011844/choosing-parents-to-crossover-in-genetic-algorithms>
+- <https://www.youtube.com/watch?v=lu5ul7z4icQ&list=PLRqwX-V7Uu6Yd3975YwxrR0x40XGJ_KGO)>
+
+
 ## How it works
 
 The core game is reused and built on top of using composition
