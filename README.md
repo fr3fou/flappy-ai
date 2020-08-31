@@ -8,7 +8,7 @@ Here's a [video](https://twitter.com/fr3fou/status/1254417434343333888) on how i
 
 ## Credits
 
-This project was greatly inspired by Daniel Shiffman and his series on Neuroevolion - [Neuroevolution - The Nature of Code](https://www.youtube.com/watch?v=lu5ul7z4icQ&list=PLRqwX-V7Uu6Yd3975YwxrR0x40XGJ_KGO)
+This project was greatly inspired by Daniel Shiffman and his series on Neuroevolution - [Neuroevolution - The Nature of Code](https://www.youtube.com/watch?v=lu5ul7z4icQ&list=PLRqwX-V7Uu6Yd3975YwxrR0x40XGJ_KGO)
 
 ## References
 
